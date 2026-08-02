@@ -1,8 +1,33 @@
 aid: synop
 name: Synop
-description: Synop is a company surfaced as a portfolio company of obvious-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Synop is a software platform for commercial electric vehicle fleet charging and
+  energy management, describing itself as "the operating system for commercial EV
+  fleets." Its hardware- and software-agnostic platform integrates vehicles,
+  chargers, and the grid across the U.S. and Europe, spanning charge management
+  (remote charger control, real-time alerts, EVSE interoperability across 100+
+  charging station models), energy management (AI-based load and time-of-use
+  optimization, curtailment, demand response, and vehicle-to-grid events), vehicle
+  management (state-of-charge and efficiency via telematics), payment management
+  (billing, driver reimbursement, and transaction reporting), utility management,
+  and SynopLink edge connectivity for site-level operations. Synop cites 500+ MWh
+  under management across 800+ commercial depots. Its API integrations surface
+  live time-of-use rate data and export reimbursement data to accounting and
+  expense systems, though the developer documentation is a password-gated ReadMe
+  admin guide rather than a public developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/synop/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63729aa3d8efde0bf7b4ccfb/63729cefd8efdeaf68b4f12b_synop_logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +36,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Electric Vehicles
+- EV Charging
+- Fleet Management
+- Energy Management
+- Vehicle-to-Grid
+- Smart Charging
+- Sustainability
+- Telematics
+- Utilities
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,29 @@ maintainers:
 common:
 - type: Website
   url: https://synop.ai
+- type: Blog
+  url: https://www.synop.ai/blog
+- type: SignUp
+  url: https://www.synop.ai/book-a-demo
+- type: TermsOfService
+  url: https://www.synop.ai/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.synop.ai/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/synop-ai
+- type: StatusPage
+  url: https://status.synop.ai
+- type: Lifecycle
+  url: lifecycle/synop-lifecycle.yml
+- type: TrustCenter
+  url: security/synop-trust-center.yml
+- type: Compliance
+  url: https://www.synop.ai/security
+  name: SOC 2 Type 2, GDPR
+- type: DomainSecurity
+  url: security/synop-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

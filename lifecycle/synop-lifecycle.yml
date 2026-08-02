@@ -1,0 +1,10 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.synop.ai
+status_page: https://status.synop.ai
+notes: >-
+  Synop publishes a public status page at status.synop.ai (advertising 99.99%
+  average platform uptime). No public versioning or deprecation policy was found
+  — the developer/API surface (synop.readme.io "Synop Admin Guide") is
+  password-gated, so no OpenAPI, versioning scheme, or Sunset/Deprecation header
+  policy could be captured. Uptime claim per synop.ai marketing.
